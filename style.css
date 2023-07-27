@@ -1,0 +1,137 @@
+body {
+  font-family: "Nerko One", cursive;
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  font-size: 85px;
+}
+#orange {
+  color: orange;
+}
+#violent {
+  text-align: left;
+  color: blueviolet;
+}
+
+.half {
+  width: 50%;
+  padding-left: 2%;
+}
+
+.para {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.half img {
+  width: 70%;
+  padding-top: 10%;
+  border: 50cm;
+  padding-left: 80px;
+  /* border-radius: 8cm;
+  border-top-left-radius: 8cm;
+  border-top-right-radius: 8cm; */
+}
+
+.hire {
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  color: black;
+  padding: 10px 30px;
+  border-radius: 5cm;
+}
+
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.middle img {
+  padding-left: 30px;
+  padding-top: 60px;
+  height: 70%;
+}
+
+.middle2_h3 {
+  font-size: 85px;
+}
+
+.middle2 {
+  font-size: 40px;
+  padding-left: 4%;
+  padding-top: 4%;
+}
+.middle-para {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.middle-banner {
+  display: flex;
+  margin-bottom: 150px;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: 80px;
+  padding-top: 250px;
+}
+
+.last {
+  display: flex;
+}
+
+#last1 {
+  width: 50%;
+  box-shadow: 10px 20px 30px lightblue;
+  margin-left: 3%;
+  margin-right: 15%;
+  padding-left: 40px;
+  border-radius: 15px;
+  /* border-style: solid;
+  border-width: 5px; */
+  border-left: 12px solid tomato;
+}
+
+#last1 h3 {
+  color: orange;
+}
+
+#last2 {
+  padding-left: 300px;
+  width: 50%;
+  box-shadow: 10px 10px 30px lightblue inset;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 40px;
+  border-radius: 15px;
+  border-left: 12px solid;
+  border-image: linear-gradient(blue, cyan);
+  /* border-image-slice: 3; */
+}
+
+#last2 h3 {
+  font-size: 30px;
+  color: orange;
+}
+
+#last1 h3 {
+  font-size: 30px;
+}
+.last-part {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 10px;
+  font-size: large;
+  color: black;
+}
